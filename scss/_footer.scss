@@ -1,0 +1,45 @@
+#footer {
+	border-top: 1px solid gray;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 950px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+#footer {
+	ul {
+		display: inline;
+	}
+
+	li {
+		font-family: 'Lato', sans-serif;
+		font-size: .75em;
+		text-decoration: none;
+		color: black;
+		display: inline;
+	}
+	
+	a {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.0em;
+		text-decoration: none;
+		color: black;
+		display: inline;
+	
+
+		&:hover {
+			color: #f2695c;
+		}
+	}
+
+#copyright{
+	float: left;
+}
+
+.footer-nav {
+	float: right;
+	margin-left: 15px;
+	}
+
+}

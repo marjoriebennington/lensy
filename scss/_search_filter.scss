@@ -1,0 +1,58 @@
+.search-info {
+	margin-left: 5px;
+
+
+	p {
+		font-variant: small-caps;
+		font-family: 'Lato', sans-serif;
+		color: #1a1a1a;
+		position: absolute;
+	}
+
+	ul {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-size: .75em;
+		position: absolute;
+		height: 150px;
+		width: 300px;
+	}	
+
+	li {
+		max-width: 125px;
+		text-align: left;
+	}
+}
+
+#map-pin {
+	position: absolute;
+	margin-top: -275px;
+	margin-left: 100px;
+	height: 30px;
+	width: 22px;
+}
+
+#zip {
+	width: 200px;
+	font-size: 4.0em;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: -293px;
+	border-bottom: 1px solid #1a1a1a;
+	border-top: 1px solid #1a1a1a;
+}
+
+#narrow-search {
+	font-size: 1.05em;
+	position: absolute;
+	margin-top: -190px;
+	text-transform: uppercase;
+	color: #f2695c;
+	margin-left: 50px;
+}
+
+#advanced-search {
+	font-size: .75em;
+	position: absolute;
+	margin-top: -157px;
+}
