@@ -1,0 +1,79 @@
+.photographers-container {
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+	margin-top: 50px;
+	
+	ul {
+		padding: 0;
+		margin: 0;
+		position: relative;
+	}
+
+	h2 {
+		margin-top: -40px;
+		padding-bottom: 20px;
+		font-weight: bolder;
+	} 
+
+	li {
+		display: inline-block;
+		width: 300px;
+		text-align: center;
+		padding: 5px;
+	}
+
+	.interior { 
+		margin-left: 0px;
+		margin-right: 5px; 
+	}
+
+	.last {
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+
+}
+
+.photographer-name {
+	width: 300px;
+	height: 300px;
+	margin-top: -303px;
+	margin-left: -150px;
+	position: absolute;
+
+	span {
+		visibility: hidden;
+		width: 300px;
+		height: 300px;
+	}
+
+	p{
+		width: 300px;
+	}
+
+	&:hover {
+		visibility: visible;
+		background-color: black;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 1;
+		width: 300px;
+		height: 300px;
+		@include anim(fadein 1s);
+	}
+
+	&:hover p {
+		visibility: visible;
+		font-family: 'Lato', sans-serif;
+		font-variant: small-caps;
+		font-size: 2.75em;
+		color: white;
+		opacity: 100%;
+		font-weight: bolder;
+		margin-top: 100px;
+		position: absolute;
+		z-index: 2;
+		text-align: center;
+	}
+}

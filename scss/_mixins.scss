@@ -1,0 +1,36 @@
+@mixin anim($name) {
+	 -webkit-animation: $name; /* Safari and Chrome */
+       -moz-animation: $name; /* Firefox */
+        -ms-animation: $name; /* Internet Explorer */
+         -o-animation: $name; /* Opera */
+            animation: $name;
+}
+
+@mixin keyframe($name, $start, $end){
+	@keyframes $name {
+    	from { opacity: $start }
+    	to   { opacity: $end }
+	}
+
+	/* Firefox */
+	@-moz-keyframes $name {
+    	from { opacity: $start }
+    	to   { opacity: $end }
+	}
+
+	/* Safari and Chrome */
+	@-webkit-keyframes $name {
+    	from { opacity: $start }
+    	to   { opacity: $end }
+	}
+
+	@-o-keyframes $name {
+		from { opacity: $start }
+		to { opacity: $end }
+	}
+
+	@-ms-keyframes $name {
+		from { opacity: $start }
+		to { opacity: $end }
+	}
+}

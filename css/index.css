@@ -1,0 +1,286 @@
+.body-container {
+	max-width: 65%;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+}
+
+#banner {
+	height: 50px;
+	width: 100%;
+	background-color: #ececec;
+	text-align: center;
+	padding-top: 1%;
+	padding: bottom: 1%;
+	position: relative;
+}
+
+#banner a {
+	float: left;
+	margin-top: 1%;
+	margin-left: 15%;
+}
+
+#banner h1 {
+	font-family: 'Lato', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #1a1a1a;
+	font-size: 1.75em;
+	font-variant: small-caps;
+	margin-top: -10px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#banner form {
+	padding: 10px 0px 10px 0px;
+	float: right;
+	margin-right: 15%;
+}
+
+#banner input[type=text] {
+	width: 400px;
+	height: 30px;
+}
+
+#banner input[value] {
+	color: #808080;
+}
+
+#nav_container {
+	float: right;
+	margin-right: 15%;
+}
+
+#navigation {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	padding-top: 20px;
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+#navigation li {
+	display: inline;
+	padding-left: 35px;
+}
+
+#navigation li a {
+	text-decoration: none;
+	color: black;
+	font-size: .75em;
+}
+
+#navigation li a:hover {
+	color: #f2695c;
+}
+
+#logo {
+	width: 100px;
+	height: 94px;
+	margin-top: -25px;
+}
+
+#home-photo-container {
+	margin: 0 auto;
+	position: relative;
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	z-index: -100;
+}
+
+#home-photo-container img {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#featured-header {
+	margin-bottom: 20px;
+	margin: 0 auto;
+	max-width: 50%;
+}
+
+#featured-header h2 {
+	font-variant: small-caps;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+
+}
+
+#featured-header #arrow1 {
+	float: left;
+}
+
+#featured-header #arrow2 {
+	float: right;
+}
+
+.photographers-container {
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+	margin-top: 50px;
+}
+
+.photographers-container ul {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.photographers-container h2 {
+	margin-top: -40px;
+	padding-bottom: 20px;
+	font-weight: bolder;
+} 
+
+.photographers-container li {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	padding: 5px;
+}
+
+li.interior { 
+	margin-left: 0px;
+	margin-right: 5px; 
+}
+
+li.last {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.headline-photo img:hover {
+z-index: 1;
+}
+
+.photographer-name {
+	width: 300px;
+	height: 300px;
+	margin-top: -303px;
+	margin-left: -150px;
+	position: absolute;
+}
+
+.photographer-name span {
+	visibility: hidden;
+	width: 300px;
+	height: 300px;
+}
+
+.photographer-name p{
+	width: 300px;
+}
+
+span.photographer-name:hover {
+	visibility: visible;
+	background-color: black;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 300px;
+ -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+}
+
+span.photographer-name:hover p {
+	visibility: visible;
+	font-family: 'Lato', sans-serif;
+	font-variant: small-caps;
+	font-size: 2.75em;
+	color: white;
+	opacity: 100%;
+	font-weight: bolder;
+	margin-top: 100px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+}
+
+#footer {
+	border-top: 1px solid gray;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 950px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+#footer ul {
+	display: inline;
+}
+
+#footer li {
+	font-family: 'Lato', sans-serif;
+	font-size: .75em;
+	text-decoration: none;
+	color: black;
+	display: inline;
+	margin-left: 20px;
+}
+
+#footer li a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.0em;
+	text-decoration: none;
+	color: black;
+	display: inline;
+}
+
+#footer li a:hover {
+	color: #f2695c;
+}
+
+#copyright{
+	float: left;
+}
+
+.footer-nav {
+	float: right;
+}
+
+.footer-nav li {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}​

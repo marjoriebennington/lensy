@@ -1,0 +1,80 @@
+#banner {
+	height: 50px;
+	width: 100%;
+	background-color: $bannerGrey;
+	text-align: center;
+	padding-top: 1%;
+	padding: bottom 1%;
+	position: relative;
+
+	 a {
+		float: left;
+		margin-top: 1%;
+		margin-left: 15%;
+	}
+
+	h1 {
+		font-family: 'Lato', sans-serif;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: $eigengrau;
+		font-size: 1.75em;
+		font-variant: small-caps;
+		margin-top: -10px;
+		float: left;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	form {
+		padding: 10px 0px 10px 0px;
+		float: right;
+		margin-right: 15%;
+	}
+
+	input[type=text] {
+		width: 400px;
+		height: 30px;
+	}
+
+	input[value] {
+		color: $lightGrey;
+	}
+}
+
+#logo {
+	width: 100px;
+	height: 94px;
+	margin-top: -25px;
+}
+
+#nav_container {
+	float: right;
+	margin-right: 15%;
+}
+
+#navigation {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		padding-top: 20px;
+		text-align: right;
+		padding-bottom: 30px;
+		position: relative;
+		z-index: 100;
+
+	li {
+		display: inline;
+		padding-left: 35px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $eigengrau;
+		font-size: .75em;
+	
+
+		&:hover {
+			color: $lensyPink;
+		}
+	}
+}
